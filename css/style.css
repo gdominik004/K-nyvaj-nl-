@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family:'Times New Roman', Times, serif;
+    color: #443322;
+    font-size: 10pt;
+    background-size: 500px;
+    background-repeat: repeat;
+    background-image: url(../kepek/konyv_hatter.jpg)
+}
+body {
+    display: block;
+    margin: 8px;
+}
+h2 {
+    display: block;
+  ;
+    margin: 0;
+    padding: 0;
+    font-size: 2,5px;
+
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10 0; 
+}
+#keret {
+    background-color: #ccaa88;
+    border-color: #eeccaa;
+    border-width: 2px;
+    margin: 0 auto 0 auto;
+    max-width: 900px;
+    min-width: 300px;
+    width: 90%;
+}
+.konyv {
+    background-size: 120px;
+    background-color: #eeccaa;
+    background-image: url(../kepek/book_icon.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-color: #443322;
+    width: 90%;
+    box-shadow: 5px 5px 5px 0px #443322;
+}
+img {
+    float: left;
+    max-width: 120px;
+    min-width: 40px;
+    margin: 10px 10px 10px 10px;
+}
+.konyv h2 {
+    margin: 0;
+    padding: 10px 0 10px 0;
+    font-size: 1,5px;
+    text-align: left;
+}
+.konyv h2 {
+    margin: 0;
+    padding: 10px 0 10px 0;
+    font-size: 1,5px;
+    text-align: left;
+}
+.konyv h3 {
+    margin: 0;
+    padding: 10px 0 10px 0;
+    font-size: 1,2px;
+    text-transform: uppercase;
+}
+.konyv h4 {
+    margin: 0;
+    padding: 10px 0 10px 0;
+    display: block;
+}
+span.kiemelt {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.elvalaszto {
+    content: '';
+    clear: both;
+    display: table;
+    background-color: #eeccaa;
+    margin: 0px auto 0px auto;
+    width: 100%;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
